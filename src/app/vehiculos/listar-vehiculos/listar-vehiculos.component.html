@@ -1,0 +1,16 @@
+<table class="table">
+  <thead>
+      <tr>
+          <th>Marca</th>
+          <th>Línea</th>
+          <th>Modelo</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr *ngFor="let vehiculo of vehiculos">
+          <td>{{ vehiculo.marca }}</td>
+          <td>{{ vehiculo.linea }}</td>
+          <td>{{ vehiculo.modelo }}</td>
+      </tr>
+  </tbody>
+</table>
